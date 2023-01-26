@@ -148,3 +148,56 @@ AWS representó el 47% del mercado en 2019
 Esta plataforma posee más de un millón de usuarios activos
 
 ## Una Visión Global: Regiones y Zonas de Disponibilidad
+
+La infraestructura de AWS está compuesta por **regiones, zonas de disponibilidad, data centers** y puntos de presencia. Además, se distribuye en diferentes regiones alrededor del mundo. Algunas de ellas son Ohio, Oregon, Norte de California, e incluso lugares exclusivos del gobierno de EE. UU. como GovCloud Este.
+
+<h3>Cómo escoger una región de AWS</h3>
+
+Podemos escoger la región de nuestra aplicación basada en distintos aspectos que mencionaremos a continuación.
+
+<h4>Por ejemplo:</h4>
+
+* El cumplimiento de los requisitos legales y de gobernanza de datos, pues los datos nunca abandonan una región sin su permiso explícito
+* La proximidad con los clientes porque lanzan en una región cercana en donde estén para reducir latencia. Puedes revisar esta característica desde tu ubicación a cada región en [cloudping.info.](https://cloudping.info/)
+
+* Los servicios disponibles dentro de una región debido a que muchos no funcionan en todas partes. Algunos servicios globales o regionales son…
+
+    * **Globales**
+        * IAM
+        * Route 53
+        * Cloudfront
+        * WAF
+    * **Regionales**
+        * EC2
+        * Beanstalk
+        * Lambda
+        * Rekognition
+
+Los precios varían de región a región y son transparentes en la página de precios del servicio
+
+<h3>Zonas de disponibilidad</h3>
+
+Una zona de disponibilidad es un grupo de data centers donde cada uno está lleno de servidores. Estos data centers poseen energía, redes y conectividad redundante, están separados entre sí, conectados con un gran ancho de banda y redes de latencia ultra baja.
+
+<h3>Modelo de responsabilidad compartida</h3>
+Ahora es crucial determinar las responsabilidades de AWS y del cliente dentro del servicio tecnológico que ofrece la compañía.
+
+<h4>AWS se hace responsable de:</h4>
+
+* Hardware y la infraestructura global
+* Regiones
+* Zonas de disponibilidad
+* Ubicaciones de AWS Edge / puntos de presencia
+* Software
+* Cómputo
+* Almacenamiento
+* Bases de datos
+* Redes
+
+<h4>El cliente se responsabiliza de:</h4>
+
+* Actualizaciones de S.O. 
+* Protección de los datos que se almacenan
+* Manejo de aplicaciones
+* Accesos
+* Administración de usuarios y grupos
