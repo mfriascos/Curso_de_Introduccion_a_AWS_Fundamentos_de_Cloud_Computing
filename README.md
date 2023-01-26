@@ -56,3 +56,50 @@ Algunas dificultades del enfoque de tecnología de la información habitual:
 * **Escalamiento Limitado**: Podemos vernos limitados por el espacio donde almacenamos los servidores
 * **Monitoreo 24/7**: Debemos contratar gente para monitorear los servidores
 * **Desastres Naturales**: ¿Cómo evitamos que se caigan nuestros servicios si ocurre un imprevisto? 
+
+## Qué es la Computación en la Nube
+
+La computación en la nube es la entrega bajo demanda de recursos de IT como computación, almacenamiento y otros servicios a través de internet. En pocas palabras, es como si alquiláramos la computadora de otra persona.
+
+Esta tecnología permite acceso instantáneo a los recursos que necesites, así como la adquisición del tipo y tamaño exacto de estos recursos. Algunos servicios que seguramente has usado son Gmail (proveedor de email), Dropbox (proveedor de almacenamiento) y Netflix (proveedor de video bajo demanda).
+
+<h3>Modelos de computación en la nube</h3>
+
+A continuación, conocerás las distintas plataformas en la nube que utilizamos cuando trabajamos en proyectos personales o en nuestra empresa.
+
+<h4>Nube pública</h4>
+
+La nube pública se refiere a los recursos de proveedores que utilizamos a través de internet y algunos ejemplos son Google Cloud Platform (GCP), Azure y AWS.
+
+Además, posee estas ventajas:
+
+* Elimina los gastos de capital comercial (CapEx) y reduce el gasto operativo (OpEx).
+* Reduce los precios en economías de escala
+* Despliega aplicaciones a nivel global en cuestión de minutos
+
+<h4>Nube privada</h4>
+
+La nube privada es un servicio empleado por una organización que no está abierto al público. Permite un control total de la infraestructura y es útil para aplicaciones con requerimientos específicos de seguridad o comerciales.
+
+<h4>Nube híbrida</h4>
+
+La nube híbrida consiste en mantener nuestra infraestructura y extender sus capacidades mediante la nube pública. Posibilita el control sobre activos sensibles en tu infraestructura privada, aprovechando la flexibilidad y rentabilidad de la nube pública.
+
+<h3>Características de la computación en la nube</h3>
+
+Ahora que conoces los distintos modelos de tecnología en la nube, es importante que hablar sobre sus propiedades de computación.
+
+* Este modelo genera un autoservicio en demanda (con registros en la plataforma ya se pueden proveer recursos)
+* Tiene un amplio acceso a la red
+* Proporciona un espacio donde los clientes pueden compartir infraestructura y recursos de manera segura
+
+<h3>Problemas resueltos por la nube</h3>
+
+Por último, es crucial que conozcas las cualidades que trae implementar un sistema de computación en la nube.
+
+* La nube aporta flexibilidad (puedes cambiar los tipos de recursos cuando sea necesario)
+* Brinda rentabilidad y un servicio medido pues pagas solo por lo que usas
+* Trae escalabilidad al agregar capacidad para hardware o equipos que necesitan acomodar cargas grandes
+* Ofrece elasticidad al dar capacidad de escalar automáticamente cuando sea necesario
+* Tiene alta disponibilidad y tolerancia a fallos
+* Proporciona agilidad (puedes desarrollar, probar y ejecutar rápidamente aplicaciones en la nube)
