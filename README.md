@@ -6,6 +6,7 @@
 
 - [Cómo Aprender AWS](#cómo-aprender-aws)
 - [Visión General de las TI Tradicionales](#visión-general-de-las-ti-tradicionales)
+- [Los Diferentes Tipos de Cómputo: IaaS vs PaaS vs SaaS](#los-diferentes-tipos-de-cómputo-iaas-vs-paas-vs-saas)
 
 
 ## Cómo Aprender AWS
@@ -105,4 +106,16 @@ Por último, es crucial que conozcas las cualidades que trae implementar un sist
 * Ofrece elasticidad al dar capacidad de escalar automáticamente cuando sea necesario
 * Tiene alta disponibilidad y tolerancia a fallos
 * Proporciona agilidad (puedes desarrollar, probar y ejecutar rápidamente aplicaciones en la nube)
+
+## Los Diferentes Tipos de Cómputo: IaaS vs PaaS vs SaaS
+
+* **IaaS:** Infraestructura como Servicio. Proporciona componentes básico para las tecnologías de información en la nube.
+* **PaaS:** Plataforma como Servicio. Eliminar la necesidad de que nuestra rganización administre la infraestructura
+* **SaaS:** Software como Servicio. Producto terminado que es administrado y ejecutado por el proveedor de servicio 
+
+<h3>Ejemplos de los Tipos de Computación de la Nube</h3>
+
+IaaS: Azure, Linode, Digital Ocean. 
+PaaS: Google AppEngine. 
+SaaS: Dropbox, Zoom, Gmail
 
