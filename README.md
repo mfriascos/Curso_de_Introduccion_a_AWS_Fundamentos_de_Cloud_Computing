@@ -88,7 +88,9 @@ La nube híbrida consiste en mantener nuestra infraestructura y extender sus cap
 <h3>Características de la computación en la nube</h3>
 
 Ahora que conoces los distintos modelos de tecnología en la nube, es importante que hablar sobre sus propiedades de computación.
-
+* Autoservicio en demanda
+* Amplio acceso a la red
+* Multiples inquilino 
 * Este modelo genera un autoservicio en demanda (con registros en la plataforma ya se pueden proveer recursos)
 * Tiene un amplio acceso a la red
 * Proporciona un espacio donde los clientes pueden compartir infraestructura y recursos de manera segura
@@ -103,3 +105,4 @@ Por último, es crucial que conozcas las cualidades que trae implementar un sist
 * Ofrece elasticidad al dar capacidad de escalar automáticamente cuando sea necesario
 * Tiene alta disponibilidad y tolerancia a fallos
 * Proporciona agilidad (puedes desarrollar, probar y ejecutar rápidamente aplicaciones en la nube)
+
