@@ -8,6 +8,7 @@
 - [Visión General de las TI Tradicionales](#visión-general-de-las-ti-tradicionales)
 - [Los Diferentes Tipos de Cómputo: IaaS vs PaaS vs SaaS](#los-diferentes-tipos-de-cómputo-iaas-vs-paas-vs-saas)
 - [Una Visión Global: Regiones y Zonas de Disponibilidad](#una-visión-global-regiones-y-zonas-de-disponibilidad)
+- [Seguridad e Identidad](#seguridad-e-identidad)
 
 
 ## Cómo Aprender AWS
@@ -219,3 +220,43 @@ Para crear tu cuenta de Amazon dirígete al [portal de AWS](https://portal.aws.a
 
 5. Selecciona el plan que más se adapte a tus necesidades
 
+# Seguridad e Identidad
+
+Uno de los aspectos más importantes al trasladar aplicaciones en la nube es la seguridad. Es crucial que nuestros datos estén protegidos contra amenazas para así permitir que los usuarios accedan a nuestro sistema y encuentren sólo los recursos que necesitan.
+
+<h3>Servicios de protección de datos</h3>
+
+A continuación, conocerás algunos servicios de protección de AWS y sus funciones para mover nuestras plataformas en la nube:
+
+* **Amazon Macie:** descubre y protege datos sensibles
+* **AWS Key Management Service:** almacena y administra claves de cifrado
+* **AWS CloudHSM:** proporciona almacenamiento de claves basado en hardware
+* **AWS Certificate Manager:** provee, administra e implementa certificados SSL/TLS
+* **AWS Secrets Manager:** traslada, gestiona y recupera datos (contraseñas, por ejemplo)
+
+<h3>Servicios de protección de la infraestructura</h3>
+
+Es fundamental que cuides de la infraestructura de tu sitio web y AWS ofrece los siguientes servicios de seguridad:
+
+* **AWS Shield:** protege contra ataques de Denegación de Servicio (DDOS)
+* **AWS Web Aplication Firewall (WAF):** filtra el tráfico de sitios web maliciosos
+* **AWS Firewall Manager:** administra las reglas del firewall de forma centralizada
+
+<h3>Servicios de detección de amenazas</h3>
+
+En todo momento nuestra plataforma está expuesta a grandes amenazas y por eso AWS desarrolló los siguientes servicios:
+
+* **Amazon GuarDuty:** detecta automáticamente las amenazas
+* **Amazon Inspector:** analiza la seguridad de la aplicación
+* **Amazon Config:** registra y evalúa configuraciones de nuestros recursos
+* **Amazon CloudTrail:** rastrea la actividad del usuario y el uso de las API que ocupamos en nuestra cuenta.
+
+<h3>Servicios de gestión de identidad</h3>
+
+Por último, existen distintas herramientas de gestión de identidad que provee AWS:
+
+* **AWS Identity and Access Management (IAM):** administra de forma segura el acceso a una cuenta, servicios y recursos
+* **AWS Inicio de sesión único:** implementa el inicio de sesión único (Single Sign On/SSO)
+* **Amazon Cognito:** permite a los usuarios administrar la identidad dentro de las aplicaciones
+* **AWS Servicio de Directorio:** implementa y administra un Active Directory service
+* **AWS Organizaciones:** funciona para gobernar y administrar de distintas cuentas de AWS de forma centralizada.
