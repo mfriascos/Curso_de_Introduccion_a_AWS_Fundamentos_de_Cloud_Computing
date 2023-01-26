@@ -7,6 +7,7 @@
 - [Cómo Aprender AWS](#cómo-aprender-aws)
 - [Visión General de las TI Tradicionales](#visión-general-de-las-ti-tradicionales)
 - [Los Diferentes Tipos de Cómputo: IaaS vs PaaS vs SaaS](#los-diferentes-tipos-de-cómputo-iaas-vs-paas-vs-saas)
+- [Una Visión Global: Regiones y Zonas de Disponibilidad](#una-visión-global-regiones-y-zonas-de-disponibilidad)
 
 
 ## Cómo Aprender AWS
@@ -119,3 +120,31 @@ IaaS: Azure, Linode, Digital Ocean.
 PaaS: Google AppEngine. 
 SaaS: Dropbox, Zoom, Gmail
 
+## Una Pequeña Historia de AWS 
+
+**Benjamin Black y Chris Pinkham** son los principales desarrolladores de Amazon Web Services y crearon esta compañía a partir de la necesidad de impulsar nuevas tecnológicas en momentos de mayor tráfico y demanda.
+
+La historia de AWS está repleta de hitos, pues es una de las plataformas más utilizadas en distintas startups y compañías que están transformando su industria. ¡No te preocupes! Aquí te resumimos fácil su línea del tiempo.
+
+<h3>Línea del tiempo de AWS</h3>
+
+Hace veinte años nació esta promesa tecnológica y en la actualidad ¡tiene clientes en más de 245 países y territorios!
+
+* 2002 → Se lanza internamente la plataforma
+* 2003 → Comienza a comercializarse la idea de AWS
+* 2004 → Llega al público el servicio SQS
+* 2006 → Vuelve a lanzarse al público SQS, S3 y EC2
+* 2007 → Abren operaciones en Europa
+* 2009 → Lanzan el servicio RDS (Relational Database)
+* 2010 → Sale al mercado el servicio Route 53
+* 2012 → Lanzan DynamoDB (una base de datos no relacional)
+
+<h3>AWS en números</h3>
+
+Quizás sean un gran seguidor y fiel cliente de esta compañía, pero… ¿Conocías estos datos?
+
+En 2019, AWS logró $35.02 mil millones de dólares en ingresos anuales
+AWS representó el 47% del mercado en 2019
+Esta plataforma posee más de un millón de usuarios activos
+
+## Una Visión Global: Regiones y Zonas de Disponibilidad
