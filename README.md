@@ -203,3 +203,18 @@ Ahora es crucial determinar las responsabilidades de AWS y del cliente dentro de
 * Accesos
 * Administración de usuarios y grupos
 
+## Laboratorio: Crea tu Cuenta en AWS
+
+Para crear tu cuenta de Amazon dirígete al [portal de AWS](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=header_signup&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation&language=es_es#/start/email) y sigue estas instrucciones para crear tu cuenta.
+
+<p align="center"><img width=90% src="./pictures/registro-amazon.jpg"></p>
+
+1. Entra al portal de Amazon y registra tus datos
+
+2. Introduce el número de tu tarjeta de crédito
+
+3. Completa el CAPTCHA para verificar tu identidad
+
+4. Verifica tu cuenta con un código de confirmación
+
+5. Selecciona el plan que más se adapte a tus necesidades
