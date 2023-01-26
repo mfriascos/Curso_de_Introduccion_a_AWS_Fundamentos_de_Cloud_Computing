@@ -9,6 +9,7 @@
 - [Los Diferentes Tipos de Cómputo: IaaS vs PaaS vs SaaS](#los-diferentes-tipos-de-cómputo-iaas-vs-paas-vs-saas)
 - [Una Visión Global: Regiones y Zonas de Disponibilidad](#una-visión-global-regiones-y-zonas-de-disponibilidad)
 - [Seguridad e Identidad](#seguridad-e-identidad)
+- [IAM Ilustrado](#iam-ilustrado)
 
 
 ## Cómo Aprender AWS
@@ -260,3 +261,55 @@ Por último, existen distintas herramientas de gestión de identidad que provee 
 * **Amazon Cognito:** permite a los usuarios administrar la identidad dentro de las aplicaciones
 * **AWS Servicio de Directorio:** implementa y administra un Active Directory service
 * **AWS Organizaciones:** funciona para gobernar y administrar de distintas cuentas de AWS de forma centralizada.
+
+## IAM Ilustrado
+
+**Identity and Access Management (IAM)** es un servicio gratuito que nos ayuda a administrar los accesos a los servicios y recursos de tu cuenta en AWS. A su vez, puedes crear usuarios, grupos y establecer permisos de acceso a los recursos mediante el uso de políticas.
+
+<h3>Usuarios y grupos de usuarios de IAM</h3>
+
+Los usuarios y grupos de usuarios son de los principales componentes de IAM. Al crear tu cuenta de AWS te proporcionan un usuario Root que tiene acceso a todos los recursos,
+
+Este usuario puede generar otros perfiles y cada uno con un acceso único a distintos recursos de AWS. Además, Root también puede configurar grupos de usuarios, donde cada miembro tiene y puede compartir permisos de acceso.
+
+<h3>Ejemplos de políticas de IAM</h3>
+
+El acceso a recursos se otorga mediante políticas. Este es un ejemplo de una política que otorga acceso de administrador.
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}
+```
+También está este ejemplo de políticas de acceso a un bucket de S3 (almacenamiento)
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket"
+            ],
+            "Resource": "arn:aws:53 ::: bucket-name"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3: GetObject",
+                "s3: PutObject",
+            ],
+            "Resource": "arn:aws:53 ::: bucket-name /*"
+        }
+    ]
+}
+```
+<h3>IAM Roles</h3>
+
+Además de todas estas funciones, IAM de AWS permite asumir roles y otorgar permisos a otras tecnologías. Por ejemplo, podemos conceder a una máquina virtual el acceso a una base de datos mediante un rol de IAM.
