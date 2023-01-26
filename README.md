@@ -218,3 +218,4 @@ Para crear tu cuenta de Amazon dirígete al [portal de AWS](https://portal.aws.a
 4. Verifica tu cuenta con un código de confirmación
 
 5. Selecciona el plan que más se adapte a tus necesidades
+
