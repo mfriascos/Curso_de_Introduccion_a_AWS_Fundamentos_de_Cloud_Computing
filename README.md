@@ -180,6 +180,7 @@ Los precios varían de región a región y son transparentes en la página de pr
 Una zona de disponibilidad es un grupo de data centers donde cada uno está lleno de servidores. Estos data centers poseen energía, redes y conectividad redundante, están separados entre sí, conectados con un gran ancho de banda y redes de latencia ultra baja.
 
 <h3>Modelo de responsabilidad compartida</h3>
+
 Ahora es crucial determinar las responsabilidades de AWS y del cliente dentro del servicio tecnológico que ofrece la compañía.
 
 <h4>AWS se hace responsable de:</h4>
@@ -201,3 +202,4 @@ Ahora es crucial determinar las responsabilidades de AWS y del cliente dentro de
 * Manejo de aplicaciones
 * Accesos
 * Administración de usuarios y grupos
+
