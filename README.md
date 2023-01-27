@@ -313,3 +313,10 @@ También está este ejemplo de políticas de acceso a un bucket de S3 (almacenam
 <h3>IAM Roles</h3>
 
 Además de todas estas funciones, IAM de AWS permite asumir roles y otorgar permisos a otras tecnologías. Por ejemplo, podemos conceder a una máquina virtual el acceso a una base de datos mediante un rol de IAM.
+
+# Secrets Manager
+
+**Secrets Manager** Es un servicio de AWS que nos ayuda a proteger los datos secretos (contraseñas, claves y tokens) necesarios para acceder a nuestras aplicaciones, servicios y recursos. 
+
+También nos permite compartir automáticamente esta información cuando queramos. Además, este servicio evita que tengamos que copiar y pegar los secretos directamente en nuestro código. 
+
